@@ -779,7 +779,7 @@
       "key":"at9jjauxpl"
     },
     {
-      "key": "PzCqoMNacZ",
+      "key": "FltWXMHzzS",
       "layout": "profile",
       "icon": "person",
       "fontFamily": "CupertinoIcons",
@@ -794,30 +794,21 @@
         "language",
         "darkTheme",
         "rating",
-        "web-vTJdHawEjf",
-        "about"
+        "post-vZjOylnZkv",
+        "post-ScsAbxigxR"
       ],
       "subGeneralSetting": {
-        "web-vTJdHawEjf": {
-          "enableClose": true,
-          "webViewMode": true,
-          "webUrl": "https://serby.ph/privacy-policy/",
-          "icon": "lock_shield",
-          "enableBackward": false,
-          "title": "Privacy Policy",
-          "requiredLogin": false,
+        "post-ScsAbxigxR": {
+          "pageId": 8090,
+          "icon": "info",
           "iconFontFamily": "CupertinoIcons",
-          "script": "",
-          "enableForward": false
+          "title": "About Us"
         },
-        "about": {
-          "webUrl": "https://serby.ph/what-is-serby/",
-          "webViewMode": false,
-          "requiredLogin": false,
-          "enableForward": false,
-          "enableBackward": true,
-          "enableClose": false,
-          "script": ""
+        "post-vZjOylnZkv": {
+          "pageId": 8074,
+          "icon": "lock_shield",
+          "iconFontFamily": "CupertinoIcons",
+          "title": "Privacy Policy"
         }
       },
       "showBackground": true
