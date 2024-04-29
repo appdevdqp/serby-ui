@@ -5,7 +5,7 @@
       "usePrimaryColor":true,
       "paddingRight":10,
       "minWidth":0,
-      "title":"Ex: food, service, home improvements",
+      "title":"Ex: food, service, barber, hotel",
       "type":"static",
       "backgroundGradientColor":[],
       "marginLeft":15,
@@ -646,72 +646,79 @@
     "ProductDetail":"simpleType",
     "MainColor":"ffffcc02",
     "ProductListLayout":"listTile",
-    "SmartEngagementBanner":{
-      "popup":{
-        "closePosition":"topRight",
-        "data":{
-          "parallax":false,
-          "enableParallax":false,
-          "isHorizontal":false,
-          "marginLeft":0,
-          "layout":"bannerImage",
-          "fit":"fitHeight",
-          "marginRight":0,
-          "parallaxImageRatio":1.2,
-          "design":"static",
-          "marginBottom":0,
-          "items":[
+    "SmartEngagementBanner": {
+      "popup": {
+        "closePosition": "topRight",
+        "data": {
+          "parallax": false,
+          "enableParallax": false,
+          "isHorizontal": false,
+          "marginLeft": 0,
+          "layout": "bannerImage",
+          "fit": "fitHeight",
+          "marginRight": 0,
+          "parallaxImageRatio": 1.2,
+          "design": "static",
+          "marginBottom": 0,
+          "items": [
             {
-              "image":"https://i.imgur.com/i0TsfFZ.png",
-              "padding":5,
-              "bannerWithProduct":false,
-              "showSubcategory":false,
-              "video":"",
-              "radius":0,
-              "category":"97",
-              "defaultShowProduct":false,
-              "products":[]
+              "image": "https://i.imgur.com/i0TsfFZ.png",
+              "padding": 5,
+              "bannerWithProduct": false,
+              "showSubcategory": false,
+              "video": "",
+              "radius": 0,
+              "category": "97",
+              "defaultShowProduct": false,
+              "products": [
+              ]
             }
           ],
-          "marginTop":33,
-          "key":"ewg1akvkuq",
-          "height":0.2
+          "marginTop": 33,
+          "key": "ewg1akvkuq",
+          "height": 0.2
         },
-        "enable":false,
-        "alwaysShowUponOpen":true
+        "enable": false,
+        "alwaysShowUponOpen": true
       },
-      "flexible":{
-        "canClose":true,
-        "data":{
-          "layout":"button",
-          "marginBottom":0,
-          "alignment":"topCenter",
-          "items":[
+      "flexible": {
+        "canClose": false,
+        "data": {
+          "alignment": "topCenter",
+          "marginTop": 0,
+          "marginBottom": 0,
+          "enableBackground": false,
+          "items": [
             {
-              "marginRight":0,
-              "textFontSize":14,
-              "image":"https://lottie.host/9798ee34-edee-43de-98ac-41f05fb83a73/Vcph9BkuzI.json",
-              "useMaxWidth":true,
-              "borderRadius":0,
-              "width":199.00000000000003,
-              "navigator":{
-                "showSubcategory":false,
-                "category":"369"
-              },
-              "height":200,
-              "marginLeft":0
+              "image": "https://i.imgur.com/Ghnwg0l.gif",
+              "width": 199.00000000000003,
+              "height": 200,
+              "borderRadius": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "textFontSize": 14,
+              "useMaxWidth": true,
+              "navigator": {
+                "showSubcategory": false,
+                "title": "Add Listing",
+                "enableBackward": true,
+                "enableForward": true,
+                "url": "https://huliph.com/pricing-plan/"
+              }
             }
           ],
-          "marginTop":0,
-          "key":"p2iqsl64ap"
+          "layout": "button",
+          "key": "gtotRMGLFc"
         },
-        "enable":false,
-        "width":140,
-        "canDrag":true,
-        "height":142
+        "enable": true,
+        "width": 140,
+        "canDrag": true,
+        "height": 142
       },
-      "sticky":{
-        "enable":false}}
+      "sticky": {
+        "enable": false
+      }
+    }
   },
   "TabBar":[
     {
