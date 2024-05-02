@@ -35,6 +35,119 @@
       "spacing": 11.0,
       "items": [
         {
+          "image": "https://i.imgur.com/DI3yb16.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "2620",
+          "title": "Barangay",
+          "isFeatured": false,
+          "colors": [
+            "#ffffcc02"
+          ],
+          "productType": false
+        },
+        {
+          "image": "https://i.imgur.com/7WNHJL6.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "2618",
+          "title": "Homeowner Association",
+          "isFeatured": false,
+          "colors": [
+            "#ffffcc02"
+          ],
+          "productType": false
+        },
+        {
+          "image": "https://i.imgur.com/5PYCEwp.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "2619",
+          "title": "Notary & Legal",
+          "isFeatured": false,
+          "colors": [
+            "#ffffcc02"
+          ],
+          "productType": false
+        },
+        {
+          "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b617a653cb5137325daa2/download/supplier.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "291",
+          "title": "Supplier",
+          "isFeatured": false,
+          "colors": [
+            "#ffffcc02"
+          ],
+          "productType": false
+        },
+        {
+          "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b64f67433e9871b69a124/download/pasalubong.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "89",
+          "title": "Pasalubong",
+          "isFeatured": false,
+          "colors": [
+            "#ffffcc02"
+          ],
+          "productType": false
+        },
+        {
+          "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b599cf335c26db5814381/download/professional.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "165",
+          "title": "Professionals",
+          "isFeatured": false,
+          "colors": [
+            "#ffffcc02"
+          ],
+          "productType": false
+        }
+      ],
+      "line": false,
+      "marginLeft": 10.0,
+      "marginRight": 10.0,
+      "marginTop": 0.0,
+      "marginBottom": 5.0,
+      "paddingX": 2.0,
+      "paddingY": 0.0,
+      "marginX": 0.0,
+      "marginY": 0.0,
+      "hideTitle": false,
+      "noBackground": false,
+      "imageBorderStyle": "solid",
+      "imageSpacing": 0.0,
+      "labelFontSize": 12.5,
+      "horizontalItem": false,
+      "separateWidth": 12.0,
+      "gradientStyle": false,
+      "columns": 5
+    },
+    {
+      "layout": "category",
+      "type": "icon",
+      "wrap": false,
+      "showShortDescription": true,
+      "size": 1.0,
+      "radius": 50.0,
+      "spacing": 11.0,
+      "items": [
+        {
           "image": "https://i.imgur.com/A3kRJiH.png",
           "showDescription": false,
           "originalColor": false,
@@ -77,74 +190,32 @@
           "productType": false
         },
         {
-          "category": "2620",
-          "image": "https://i.imgur.com/DI3yb16.png",
-          "colors": [
-            "#ffffcc02"
-          ],
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "showDescription": false,
-          "productType": false,
-          "title": "Barangay",
-          "onSale": false,
-          "isFeatured": false
-        },
-        {
-          "category": "2618",
-          "image": "https://i.imgur.com/7WNHJL6.png",
-          "colors": [
-            "#ffffcc02"
-          ],
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "showDescription": false,
-          "productType": false,
-          "title": "Homeowner Association",
-          "onSale": false,
-          "isFeatured": false
-        },
-        {
-          "category": "2619",
-          "image": "https://i.imgur.com/5PYCEwp.png",
-          "colors": [
-            "#ffffcc02"
-          ],
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "showDescription": false,
-          "productType": false,
-          "title": "Notary & Legal",
-          "onSale": false,
-          "isFeatured": false
-        },
-        {
-          "category": "315",
           "image": "https://i.imgur.com/htxxUjm.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "315",
+          "title": "Water Refilling Station",
+          "isFeatured": false,
           "colors": [
             "#ffffcc02"
           ],
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "showDescription": false,
-          "productType": false,
-          "title": "Water Refilling Station",
-          "onSale": false,
-          "isFeatured": false
+          "productType": false
         },
         {
-          "category": "312",
           "image": "https://i.imgur.com/ULHih4v.png",
+          "showDescription": false,
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "onSale": false,
+          "category": "312",
+          "title": "Laundry",
+          "isFeatured": false,
           "colors": [
             "#ffffcc02"
           ],
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "showDescription": false,
-          "productType": false,
-          "title": "Laundry",
-          "onSale": false,
-          "isFeatured": false
+          "productType": false
         },
         {
           "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b4f150b9d2ba191467a93/download/health_and_wellness.png",
@@ -456,7 +527,7 @@
       "marginLeft": 0.0,
       "items": [
         {
-          "image": "https://i.imgur.com/k17cix9.png",
+          "image": "https://i.imgur.com/Iw9VcAQ.png",
           "bannerWithProduct": false,
           "name": "",
           "showSubcategory": false,
@@ -464,7 +535,7 @@
           "products": [
           ],
           "padding": 0.0,
-          "radius": 20.5,
+          "radius": 0.0,
           "enableBackward": true,
           "enableForward": true,
           "url": "https://huliph.com/pricing-plan/",
@@ -836,19 +907,19 @@
       "layout":"category",
       "parallaxImageRatio":1.2,
       "fontFamily":"CupertinoIcons",
-      "visible":false,
+      "visible":true,
       "fullscreen":false,
       "pos":300,
       "parallax":false,
       "icon":"square_list",
-      "label":"Activity",
-      "categoryLayout":"card",
+      "label":"Categories",
+      "categoryLayout":"sideMenuWithGroup",
       "key":"at9jjauxpl"
     },
     {
       "layout":"search",
       "fontFamily":"CupertinoIcons",
-      "visible":true,
+      "visible":false,
       "fullscreen":false,
       "pos":400,
       "defaultTab":false,
