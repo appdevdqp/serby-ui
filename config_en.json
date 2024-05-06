@@ -91,6 +91,32 @@
           "productType": false
         },
         {
+          "category": "2631",
+          "image": "https://i.imgur.com/bnU15FV.png",
+          "colors": [
+            "#ffffcc02"
+          ],
+          "originalColor": false,
+          "keepDefaultTitle": false,
+          "showDescription": false,
+          "productType": false,
+          "onSale": false,
+          "isFeatured": false
+        },
+        {
+          "category": "343",
+          "image": "https://i.imgur.com/YkQlf3o.png",
+          "colors": [
+            "#ffffcc02"
+          ],
+          "originalColor": false,
+          "keepDefaultTitle": false,
+          "showDescription": false,
+          "productType": false,
+          "onSale": false,
+          "isFeatured": false
+        },
+        {
           "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b64f67433e9871b69a124/download/pasalubong.png",
           "showDescription": false,
           "originalColor": false,
@@ -253,48 +279,6 @@
           "onSale": false,
           "category": "292",
           "title": "Event Needs",
-          "isFeatured": false,
-          "colors": [
-            "#ffffcc02"
-          ],
-          "productType": false
-        },
-        {
-          "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b617a653cb5137325daa2/download/supplier.png",
-          "showDescription": false,
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "onSale": false,
-          "category": "291",
-          "title": "Supplier",
-          "isFeatured": false,
-          "colors": [
-            "#ffffcc02"
-          ],
-          "productType": false
-        },
-        {
-          "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b64f67433e9871b69a124/download/pasalubong.png",
-          "showDescription": false,
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "onSale": false,
-          "category": "89",
-          "title": "Pasalubong",
-          "isFeatured": false,
-          "colors": [
-            "#ffffcc02"
-          ],
-          "productType": false
-        },
-        {
-          "image": "https://trello.com/1/cards/651d0ab1508e1d6a5fddc719/attachments/653b599cf335c26db5814381/download/professional.png",
-          "showDescription": false,
-          "originalColor": false,
-          "keepDefaultTitle": true,
-          "onSale": false,
-          "category": "165",
-          "title": "Professionals",
           "isFeatured": false,
           "colors": [
             "#ffffcc02"
@@ -850,7 +834,7 @@
           "enableBackground": false,
           "items": [
             {
-              "image": "https://i.imgur.com/Ghnwg0l.gif",
+              "image": "https://i.imgur.com/UOV0Am4.gif",
               "width": 199.00000000000003,
               "height": 200,
               "borderRadius": 0,
@@ -938,7 +922,7 @@
       "key":"at9jjauxpl"
     },
     {
-      "key": "FltWXMHzzS",
+      "key": "eBinCttxKF",
       "layout": "profile",
       "icon": "person",
       "fontFamily": "CupertinoIcons",
@@ -948,6 +932,7 @@
       "fullscreen": false,
       "showOriginalColor": false,
       "settings": [
+        "web-apqyILEZAT",
         "wishlist",
         "notifications",
         "language",
@@ -958,16 +943,28 @@
       ],
       "subGeneralSetting": {
         "post-ScsAbxigxR": {
-          "pageId": 8090,
           "icon": "info",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "About Us"
+          "pageId": 8090,
+          "title": "About Us",
+          "iconFontFamily": "CupertinoIcons"
         },
         "post-vZjOylnZkv": {
-          "pageId": 8074,
           "icon": "lock_shield",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "Privacy Policy"
+          "pageId": 8074,
+          "title": "Privacy Policy",
+          "iconFontFamily": "CupertinoIcons"
+        },
+        "web-apqyILEZAT": {
+          "webUrl": "https://huliph.com/listing-author/?dashboard=listings",
+          "webViewMode": true,
+          "requiredLogin": true,
+          "enableForward": true,
+          "enableBackward": true,
+          "enableClose": true,
+          "script": "",
+          "icon": "edit_location_alt_outlined",
+          "iconFontFamily": "MaterialIcons",
+          "title": "Edit Listing Spot"
         }
       },
       "showBackground": true
@@ -1099,53 +1096,69 @@
       "key":"at9jjauxpl"
     }
   ],
-  "Drawer":{
-    "filter":0.5,
-    "logoConfig":{
-      "marginRight":40,
-      "width":180,
-      "boxFit":"fitWidth",
-      "marginBottom":0,
-      "marginTop":40,
-      "height":50,
-      "marginLeft":50
+  "Drawer": {
+    "filter": 0.5,
+    "logoConfig": {
+      "width": 180,
+      "height": 50,
+      "marginLeft": 50,
+      "marginRight": 40,
+      "marginTop": 40,
+      "marginBottom": 0,
+      "boxFit": "fitWidth"
     },
-    "enable":true,
-    "logo":"https://i.imgur.com/80HuKRk.png",
-    "subDrawerItem":{
+    "enable": true,
+    "logo": "https://i.imgur.com/80HuKRk.png",
+    "subDrawerItem": {
+      "web-AqRxAIrKnq": {
+        "webUrl": "https://huliph.com/listing-author/?dashboard=listings",
+        "webViewMode": true,
+        "requiredLogin": true,
+        "enableForward": true,
+        "enableBackward": true,
+        "enableClose": true,
+        "script": "",
+        "icon": "edit_location_alt_sharp",
+        "iconFontFamily": "MaterialIcons",
+        "title": "Edit Listing Spot"
+      }
     },
-    "safeArea":false,
-    "items":[
+    "safeArea": false,
+    "items": [
       {
-        "show":true,
-        "type":"home"
+        "type": "home",
+        "show": true
       },
       {
-        "show":true,
-        "type":"categories"
+        "type": "categories",
+        "show": true
       },
       {
-        "show":false,
-        "type":"cart"
+        "type": "web-AqRxAIrKnq",
+        "show": true
       },
       {
-        "show":false,
-        "type":"blog"
+        "type": "cart",
+        "show": false
       },
       {
-        "show":true,
-        "type":"profile"
+        "type": "blog",
+        "show": false
       },
       {
-        "show":true,
-        "type":"login"
+        "type": "profile",
+        "show": true
       },
       {
-        "show":true,
-        "type":"category"
+        "type": "login",
+        "show": true
+      },
+      {
+        "type": "category",
+        "show": true
       }
     ],
-    "key":"1bd8npz9zb"
+    "key": "avpwXfLWul"
   },
   "AppBar": {
     "showOnScreens": [
