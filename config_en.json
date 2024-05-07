@@ -957,11 +957,11 @@
         "web-apqyILEZAT": {
           "webUrl": "https://huliph.com/listing-author/?dashboard=listings",
           "webViewMode": true,
-          "requiredLogin": true,
+          "requiredLogin": false,
           "enableForward": true,
           "enableBackward": true,
           "enableClose": true,
-          "script": "",
+          "script": "document.addEventListener('DOMContentLoaded', function() {\n    var header = document.querySelector('.lp-menu-bar'); \n    if (header) {\n        header.style.display = 'none';\n    }\n});\n",
           "icon": "edit_location_alt_outlined",
           "iconFontFamily": "MaterialIcons",
           "title": "Edit Listing Spot"
@@ -1113,7 +1113,7 @@
       "web-AqRxAIrKnq": {
         "webUrl": "https://huliph.com/listing-author/?dashboard=listings",
         "webViewMode": true,
-        "requiredLogin": true,
+        "requiredLogin": false,
         "enableForward": true,
         "enableBackward": true,
         "enableClose": true,
