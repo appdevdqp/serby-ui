@@ -35,6 +35,20 @@
       "spacing": 11.0,
       "items": [
         {
+          "category": "418",
+          "image": "https://i.imgur.com/ffyhztZ.png",
+          "colors": [
+            "#ffffcc02"
+          ],
+          "originalColor": false,
+          "keepDefaultTitle": true,
+          "showDescription": false,
+          "productType": false,
+          "title": "Hotline",
+          "onSale": false,
+          "isFeatured": false
+        },
+        {
           "image": "https://i.imgur.com/DI3yb16.png",
           "showDescription": false,
           "originalColor": false,
@@ -418,47 +432,51 @@
             "showSubcategory":false,
             "category":"400"
           },
-          "height":70,
+          "height":64,
           "marginLeft":5
         },
         {
           "marginRight":5,
           "textFontSize":14,
-          "image":"http://huliph.com/wp-content/uploads/2024/04/btn_hotline-1.png",
+          "image":"http://huliph.com/wp-content/uploads/2024/05/btn_share_location-1.png",
           "useMaxWidth":true,
           "borderRadius":0,
           "width":32,
           "navigator":{
-            "showSubcategory":false,
-            "category":"418"
+            "share_location":true,
+            "showSubcategory":false
           },
-          "height":70,
+          "height":64,
           "marginLeft":5
         }
       ],
       "marginTop":0
     },
     {
-      "layout":"button",
-      "marginBottom":0,
-      "alignment":"topCenter",
-      "items":[
+      "alignment": "topCenter",
+      "marginTop": 0,
+      "marginBottom": 0,
+      "enableBackground": false,
+      "items": [
         {
-          "marginRight":0,
-          "textFontSize":14,
-          "image":"http://huliph.com/wp-content/uploads/2024/04/btn_shareloc.png",
-          "useMaxWidth":false,
-          "borderRadius":2,
-          "width":220,
-          "navigator":{
-            "share_location":true,
-            "showSubcategory":false
-          },
-          "height":50,
-          "marginLeft":0
+          "image": "http://huliph.com/wp-content/uploads/2024/05/btn_add_listing.png",
+          "width": 204.0,
+          "height": 54,
+          "borderRadius": 2,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "textFontSize": 14,
+          "useMaxWidth": false,
+          "navigator": {
+            "showSubcategory": false,
+            "title": "Add Listing",
+            "enableBackward": true,
+            "enableForward": true,
+            "url": "https://huliph.com/pricing-plan/"
+          }
         }
       ],
-      "marginTop":2
+      "layout": "button"
     },
     {
       "showCartIcon":true,
