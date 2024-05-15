@@ -470,9 +470,9 @@
           "navigator": {
             "showSubcategory": false,
             "title": "Add Listing",
-            "enableBackward": true,
-            "enableForward": true,
-            "url": "https://huliph.com/pricing-plan/"
+            "enableBackward": false,
+            "enableForward": false,
+            "tab_number": "6"
           }
         }
       ],
@@ -540,7 +540,7 @@
           "radius": 0.0,
           "enableBackward": true,
           "enableForward": true,
-          "url": "https://huliph.com/pricing-plan/",
+          "tab_number": "6",
           "video": ""
         }
       ],
@@ -700,7 +700,7 @@
           "borderRadius":6,
           "width":235,
           "navigator":{
-            "url_launch":"https://huliph.com/pricing-plan/",
+            "tab_number": "6",
             "fullscreen":true,
             "showSubcategory":false,
             "title":"Add Listing",
@@ -865,7 +865,7 @@
                 "title": "Add Listing",
                 "enableBackward": true,
                 "enableForward": true,
-                "url": "https://huliph.com/pricing-plan/"
+                "tab_number": "6"
               }
             }
           ],
@@ -950,7 +950,7 @@
       "fullscreen": false,
       "showOriginalColor": false,
       "settings": [
-        "web-apqyILEZAT",
+        "title-SSKbvfTGEe",
         "wishlist",
         "notifications",
         "language",
@@ -960,6 +960,16 @@
         "post-ScsAbxigxR"
       ],
       "subGeneralSetting": {
+        "title-SSKbvfTGEe": {
+          "title": "*** Log in to Manage Listing ***",
+          "enableDivider": false,
+          "fontSize": 16.0,
+          "titleColor": null,
+          "verticalPadding": {
+            "x": 8.0,
+            "y": 8.0
+          }
+        },
         "post-ScsAbxigxR": {
           "icon": "info",
           "pageId": 8090,
@@ -971,18 +981,6 @@
           "pageId": 8074,
           "title": "Privacy Policy",
           "iconFontFamily": "CupertinoIcons"
-        },
-        "web-apqyILEZAT": {
-          "webUrl": "https://huliph.com/listing-author/?dashboard=listings",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
-          "enableClose": true,
-          "script": "document.addEventListener('DOMContentLoaded', function() {\n    var header = document.querySelector('.lp-menu-bar'); \n    if (header) {\n        header.style.display = 'none';\n    }\n});\n",
-          "icon": "edit_location_alt_outlined",
-          "iconFontFamily": "MaterialIcons",
-          "title": "Edit Listing Spot"
         }
       },
       "showBackground": true
@@ -1153,7 +1151,7 @@
       },
       {
         "type": "web-AqRxAIrKnq",
-        "show": true
+        "show": false
       },
       {
         "type": "cart",
