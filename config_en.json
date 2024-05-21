@@ -469,10 +469,10 @@
           "useMaxWidth": false,
           "navigator": {
             "showSubcategory": false,
-            "title": "Add Listing",
-            "enableBackward": false,
-            "enableForward": false,
-            "tab_number": "6"
+            "title": "",
+            "enableBackward": true,
+            "enableForward": true,
+            "url": "https://huliph.com/pricing-plan/"
           }
         }
       ],
@@ -539,8 +539,8 @@
           "padding": 0.0,
           "radius": 0.0,
           "enableBackward": true,
-          "enableForward": true,
-          "tab_number": "6",
+          "enableForward": false,
+          "url": "https://huliph.com/pricing-plan/",
           "video": ""
         }
       ],
@@ -700,12 +700,12 @@
           "borderRadius":6,
           "width":235,
           "navigator":{
-            "tab_number": "6",
+            "url": "https://huliph.com/pricing-plan/",
             "fullscreen":true,
             "showSubcategory":false,
-            "title":"Add Listing",
+            "title":"",
             "enableBackward":true,
-            "enableForward":true
+            "enableForward":false
           },
           "text":"Promote your business now",
           "textColor":"fff8f8f8",
@@ -862,10 +862,10 @@
               "useMaxWidth": true,
               "navigator": {
                 "showSubcategory": false,
-                "title": "Add Listing",
+                "title": "",
                 "enableBackward": true,
-                "enableForward": true,
-                "tab_number": "6"
+                "enableForward": false,
+                "url": "https://huliph.com/pricing-plan/"
               }
             }
           ],
@@ -950,7 +950,6 @@
       "fullscreen": false,
       "showOriginalColor": false,
       "settings": [
-        "title-SSKbvfTGEe",
         "wishlist",
         "notifications",
         "language",
@@ -960,16 +959,6 @@
         "post-ScsAbxigxR"
       ],
       "subGeneralSetting": {
-        "title-SSKbvfTGEe": {
-          "title": "*** Log in to Manage Listing ***",
-          "enableDivider": false,
-          "fontSize": 16.0,
-          "titleColor": null,
-          "verticalPadding": {
-            "x": 8.0,
-            "y": 8.0
-          }
-        },
         "post-ScsAbxigxR": {
           "icon": "info",
           "pageId": 8090,
@@ -1147,7 +1136,7 @@
       },
       {
         "type": "categories",
-        "show": true
+        "show": false
       },
       {
         "type": "web-AqRxAIrKnq",
@@ -1171,7 +1160,7 @@
       },
       {
         "type": "category",
-        "show": true
+        "show": false
       }
     ],
     "key": "avpwXfLWul"
