@@ -471,7 +471,7 @@
             "showSubcategory": false,
             "title": "",
             "enableBackward": true,
-            "enableForward": true,
+            "enableForward": false,
             "url": "https://huliph.com/pricing-plan/"
           }
         }
@@ -949,6 +949,7 @@
       "defaultTab": false,
       "fullscreen": false,
       "showOriginalColor": false,
+      "visible":true,
       "settings": [
         "wishlist",
         "notifications",
@@ -972,7 +973,7 @@
           "iconFontFamily": "CupertinoIcons"
         }
       },
-      "showBackground": true
+      "showBackground": false
     },
     {
       "layout":"dynamic",
@@ -1167,14 +1168,19 @@
   },
   "AppBar": {
     "showOnScreens": [
+      "home",
+      "category",
+      "wishlist",
+      "map",
+      "profile"
     ],
     "backgroundColor": "ff121212",
     "enable": true,
     "snap": true,
-    "pinned": true,
+    "pinned": false,
     "floating": true,
-    "elevation": 0,
-    "alwaysShowAppBar": true,
+    "elevation": 0.0,
+    "alwaysShowAppBar": false,
     "items": [
       {
         "type": "icon",
@@ -1218,7 +1224,7 @@
         "iconSize": 20,
         "size": 40,
         "radius": 0,
-        "marginLeft": 20.0,
+        "marginLeft": 20,
         "marginRight": 0,
         "marginTop": 0,
         "marginBottom": 0,
@@ -1228,7 +1234,7 @@
         "paddingBottom": 0,
         "image": "https://i.imgur.com/80HuKRk.png",
         "imageBoxFit": "contain",
-        "width": 145.0,
+        "width": 145,
         "key": "IqBmEEjRTF",
         "avatarRadius": 100,
         "spacingText": 3,
@@ -1252,7 +1258,7 @@
         "size": 48,
         "radius": 0,
         "marginLeft": 0,
-        "marginRight": 10.0,
+        "marginRight": 10,
         "marginTop": 0,
         "marginBottom": 0,
         "paddingLeft": 0,
