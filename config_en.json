@@ -545,7 +545,7 @@
         }
       ],
       "marginBottom": 0.0,
-      "height": 0.25,
+      "height": 0.26,
       "marginRight": 0.0,
       "marginTop": 0.0,
       "enableParallax": false,
@@ -598,44 +598,44 @@
       "hideEmptyProductListRating":false
     },
     {
-      "layout": "bannerImage",
-      "design": "default",
-      "fit": "fill",
-      "items": [
+      "layout": "spacer",
+      "height": 10.0,
+      "backgroundColor": null,
+      "useLightColor": false
+    },
+    {
+      "layout":"bannerImage",
+      "design":"static",
+      "fit":"fitHeight",
+      "marginLeft":0.0,
+      "items":[
         {
-          "image": "https://i.imgur.com/ZVB5KpQ.png",
-          "showSubcategory": false,
-          "bannerWithProduct": false,
-          "defaultShowProduct": false,
-          "products": [
-          ],
-          "name": "",
-          "category": "-1",
-          "video": ""
+          "image":"https://huliph.com/wp-content/uploads/2024/06/serby_about_us.gif",
+          "padding":0.0,
+          "url_launch":"https://serby.ph/who-we-are-serby/",
+          "bannerWithProduct":false,
+          "showSubcategory":false,
+          "defaultShowProduct":false,
+          "products":[],
+          "radius":0.0,
+          "video":""
         }
       ],
-      "marginBottom": 0.0,
-      "height": 0.3,
-      "marginTop": 0.0,
-      "radius": 0.0,
-      "padding": 0.0,
-      "enableParallax": false,
-      "parallaxImageRatio": 1.2,
-      "isHorizontal": false,
-      "enableBackground": false,
-      "isSlider": false,
-      "autoPlay": true,
-      "intervalTime": 10,
-      "showNumber": false,
-      "isBlur": false,
-      "showBackground": false,
-      "upHeight": 0.0,
-      "isSoundOn": false,
-      "enableTimeIndicator": true,
-      "autoPlayVideo": false,
-      "doubleTapToFullScreen": false,
-      "pageIndicatorType": "line",
-      "parallax": false
+      "marginBottom":0.0,
+      "height":0.3,
+      "marginRight":0.0,
+      "marginTop":0.0,
+      "enableParallax":false,
+      "parallaxImageRatio":1.2,
+      "isHorizontal":false,
+      "enableBackground":false,
+      "parallax":false
+    },
+    {
+      "layout": "spacer",
+      "height": 20.0,
+      "backgroundColor": null,
+      "useLightColor": false
     },
     {
       "rotate":[],
@@ -739,6 +739,52 @@
       "fontWeight":400,
       "marginTop":0,
       "height":26.7
+    },
+    {
+      "layout": "spacer",
+      "height": 20.0,
+      "backgroundColor": null,
+      "useLightColor": false
+    },
+    {
+      "layout": "bannerImage",
+      "design": "default",
+      "fit": "fill",
+      "items": [
+        {
+          "image": "https://i.imgur.com/ZVB5KpQ.png",
+          "showSubcategory": false,
+          "bannerWithProduct": false,
+          "defaultShowProduct": false,
+          "products": [
+          ],
+          "name": "",
+          "category": "-1",
+          "video": ""
+        }
+      ],
+      "marginBottom": 0.0,
+      "height": 0.3,
+      "marginTop": 0.0,
+      "radius": 0.0,
+      "padding": 0.0,
+      "enableParallax": false,
+      "parallaxImageRatio": 1.2,
+      "isHorizontal": false,
+      "enableBackground": false,
+      "isSlider": false,
+      "autoPlay": true,
+      "intervalTime": 10,
+      "showNumber": false,
+      "isBlur": false,
+      "showBackground": false,
+      "upHeight": 0.0,
+      "isSoundOn": false,
+      "enableTimeIndicator": true,
+      "autoPlayVideo": false,
+      "doubleTapToFullScreen": false,
+      "pageIndicatorType": "line",
+      "parallax": false
     }
   ],
   "Setting":{
