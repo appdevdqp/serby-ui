@@ -523,36 +523,72 @@
       "hideEmptyProductListRating":false
     },
     {
-      "layout": "bannerImage",
-      "design": "static",
-      "fit": "fitHeight",
-      "marginLeft": 0.0,
-      "items": [
+      "layout":"bannerImage",
+      "design":"default",
+      "fit":"fitHeight",
+      "items":[
         {
-          "image": "https://i.imgur.com/qfmXOOf.png",
-          "bannerWithProduct": false,
-          "name": "",
-          "showSubcategory": false,
-          "defaultShowProduct": false,
-          "products": [
-          ],
-          "padding": 0.0,
-          "radius": 0.0,
-          "enableBackward": true,
-          "enableForward": false,
-          "url": "https://huliph.com/pricing-plan/",
-          "video": ""
+          "image":"https://i.imgur.com/kyQOYQv.png",
+          "bannerWithProduct":false,
+          "name":"",
+          "showSubcategory":false,
+          "enableBackward":true,
+          "defaultShowProduct":false,
+          "url":"https://huliph.com/pricing-plan/",
+          "products":[],
+          "enableForward":false,
+          "video":""
+        },
+        {
+          "image":"https://i.imgur.com/rzofLh9.png",
+          "showSubcategory":false,
+          "bannerWithProduct":false,
+          "defaultShowProduct":false,
+          "products":[],
+          "url_launch":"https://facebook.com/serbyofficial",
+          "video":""
+        },
+        {
+          "image":"https://i.imgur.com/cbjOnn6.png",
+          "showSubcategory":false,
+          "bannerWithProduct":false,
+          "defaultShowProduct":false,
+          "products":[],
+          "url_launch":"https://instagram.com/serbyofficial",
+          "video":""
+        },
+        {
+          "image":"https://i.imgur.com/neDyNMq.png",
+          "showSubcategory":false,
+          "bannerWithProduct":false,
+          "defaultShowProduct":false,
+          "products":[],
+          "url_launch":"https://youtube.com/@serby_official",
+          "video":""
         }
       ],
-      "marginBottom": 0.0,
-      "height": 0.26,
-      "marginRight": 0.0,
-      "marginTop": 0.0,
-      "enableParallax": false,
-      "parallaxImageRatio": 1.2,
-      "isHorizontal": false,
-      "enableBackground": false,
-      "parallax": false
+      "marginBottom":0.0,
+      "height":0.25,
+      "marginTop":0.0,
+      "radius":6.0,
+      "padding":0.0,
+      "enableParallax":false,
+      "parallaxImageRatio":1.2,
+      "isHorizontal":false,
+      "enableBackground":false,
+      "isSlider":true,
+      "autoPlay":true,
+      "intervalTime":5,
+      "showNumber":false,
+      "isBlur":false,
+      "showBackground":false,
+      "upHeight":0.0,
+      "isSoundOn":false,
+      "enableTimeIndicator":true,
+      "autoPlayVideo":false,
+      "doubleTapToFullScreen":false,
+      "pageIndicatorType":"line",
+      "parallax":false
     },
     {
       "showCartIcon":true,
@@ -610,7 +646,7 @@
       "marginLeft":0.0,
       "items":[
         {
-          "image":"https://huliph.com/wp-content/uploads/2024/06/serby_about-us.gif",
+          "image":"https://i.imgur.com/K3y2JBf.gif",
           "padding":0.0,
           "url_launch":"https://serby.ph/who-we-are-serby/",
           "bannerWithProduct":false,
